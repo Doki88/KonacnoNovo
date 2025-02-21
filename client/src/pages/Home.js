@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
 
 export default function Home(){
     return (
-        <div>Pozdrav</div>
-         
+        <>
+            <div>Pozdrav</div>
+            <Link to={"/products/"}>PROIZVODI</Link>
+        </>
+    
         
     )
 }
