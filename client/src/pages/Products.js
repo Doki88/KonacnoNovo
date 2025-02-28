@@ -51,10 +51,10 @@ export default function Products(){
             setTotalPages(data.pagination.totalPages)
         })
         .catch(error => {
-            alert("Unable to get the data i ovo jos nesto")
+            alert("Unable to get the data i ovo jos novo")
             console.log('evo greske') 
-            console.log(error().stack)
-            alert(error().stack)
+            console.log(error.stack)
+            alert(error.stack)
         })
     }
 
