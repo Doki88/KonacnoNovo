@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "6509ff248ddd18b646c0b519"
+  },
+  "name": "Utikač 3f bakel Ravni",
+  "subtitle": "",
+  "images": [
+    "/images/nopal/Utikac-trofazni-ravni-crni.jpg" 
+	 
+	
+  ],
+  "description": "",
+  "brand": "Nopal",
+  "category": "utikaci",
+  "price": 5.10,
+  "productIsNew": false,
+  "stock": 52,
+  "serialNumber": "NOP215",
+  "__v": 1,
+  "updatedAt": {
+    "$date": "2023-10-04T18:57:57.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6509ff248ddd18b646c0b520"
+  },
+  "name": "Utikač 1f PVC plašt 16A",
+  "subtitle": "",
+  "images": [
+         "/images/nopal/10789-Utikac-dvopolni-16A-sa-PVC-PLASTOM-NOPAL_art-214.jpg" 
+    
+  ],
+  "description": "",
+  "brand": "Nopal",
+  "category": "utikaci",
+  "price": 3.45,
+  "productIsNew": true,
+  "stock": 44,
+  "serialNumber": "NOP214",
+  "__v": 1,
+  "updatedAt": {
+    "$date": "2023-10-05T16:55:58.822Z"
+  }
+} ,
+{
+  "_id": {
+    "$oid": "6509ff248ddd18b646c0b521"
+  },
+  "name": "Utikač 1f L izvedbe",
+  "subtitle": "",
+  "images": [
+         "/images/nopal/323010.jpg" 
+    
+  ],
+  "description": "",
+  "brand": "Nopal",
+  "category": "utikaci",
+  "price": 3.05,
+  "productIsNew": true,
+  "stock": 44,
+  "serialNumber": "NOP206",
+  "__v": 1,
+  "updatedAt": {
+    "$date": "2023-10-05T16:55:58.822Z"
+  }
+} ,
+{
+  "_id": {
+    "$oid": "6509ff248ddd18b646c0b522"
+  },
+  "name": "Utikač 1f masivni ravni",
+  "subtitle": "",
+  "images": [
+          "/images/nopal/NO014_350_350px.jpg" 
+    
+  ],
+  "description": "",
+  "brand": "Nopal",
+  "category": "utikaci",
+  "price": 3.10,
+  "productIsNew": true,
+  "stock": 44,
+  "serialNumber": "NOP204",
+  "__v": 1,
+  "updatedAt": {
+    "$date": "2023-10-05T16:55:58.822Z"
+  }
+} 
+ 
+  ]

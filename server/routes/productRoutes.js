@@ -4,7 +4,7 @@ import Product from '../models/Product.js'
 const productRoutes = express.Router()
 
 const getProducts =  async (req,res) => {
-    // const products = await Product.find({})
+     //const products = await Product.find({})
 
     // res.json({
     //     products,
@@ -20,10 +20,13 @@ const getProducts =  async (req,res) => {
     const category = req.params.category;
 
     //console.log('evo i probe: ' + proba)
-    console.log("brend: " + brand + " kategorija: " + category)
+    //console.log("brend: " + brand + " kategorija: " + category)
     
 
 	let products = await Product.find({});
+
+    console.log('evo producta:')
+    console.log(products)
 
     if(brand){
         console.log('usao sam u brand')
