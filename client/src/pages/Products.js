@@ -52,6 +52,8 @@ export default function Products(){
         })
         .catch(error => {
             alert("Unable to get the data")
+            console.log('evo greske') 
+            console.log(error)
             alert(error)
         })
     }
