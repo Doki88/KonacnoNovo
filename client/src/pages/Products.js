@@ -52,6 +52,7 @@ export default function Products(){
         })
         .catch(error => {
             alert("Unable to get the data")
+            alert(error)
         })
     }
 
